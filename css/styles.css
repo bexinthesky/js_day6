@@ -1,0 +1,28 @@
+/*Globals*/
+
+ul {
+  list-style: none;
+  padding: 20px;
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+}
+
+ul>li>button.btn {
+  border: 5px solid;
+  border-color: #000099;
+  background-color: #000099;
+  color: #fff;
+}
+
+ul>li>button.btn:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #ff0066;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  font-size: 30px;
+}

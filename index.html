@@ -5,22 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <!-- Unordered List Begins -->
-  <ul>
-    <li> <!-- First List Item Begins -->
-      <button id="first">Your First Name</button>
-    </li> <!-- First List Item Ends -->
-    <li> <!-- Second List Item Begins -->
-      <button id="middle">Your Middle Name</button>
-    </li> <!-- Second List Item Ends -->
-    <li> <!-- Third List Item Begins -->
-      <button id="last">Your Last Name</button>
-    </li> <!-- Third List Item Ends -->
-  </ul>
-  <!-- Unordered List Ends -->
-  <script src="script.js"></script>
+<!-- Body Begins -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 col-sm-offset-4 text-center">
+        <!-- Unordered List Begins -->
+        <ul>
+          <li>
+            <button type="button" class="btn btn-default btn-lg" id="first">First Name</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-default btn-lg" id="middle">Middle Name</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-default btn-lg" id="last">Last Name</button>
+          </li>
+        </ul>
+        <!-- Unordered List Ends -->
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+<!-- Body Ends -->
 </body>
 </html>
