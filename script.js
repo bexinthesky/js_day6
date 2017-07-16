@@ -32,7 +32,7 @@ var links = document.getElementsByTagName('button');
 
 // function capitalizes first letter and lowercase for rest of letters
 function letters(idName) {
-  var name = prompt('What is your name?');
+  var name = prompt(`What is your ${idName} name?`);
   name = name[0].toUpperCase() + name.substr(1).toLowerCase();
   if(idName === 'first') {
     firstName = name;
