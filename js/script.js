@@ -22,9 +22,6 @@ document.getElementById('last').addEventListener('click', function(event){
 // btn2 .getElementsByTagName
 var links = document.getElementsByTagName('button');
   console.log(links);
-  window.addEventListener('keypress', function(name){
-    console.log(name);
-  });
 
 // btn3 .querySelector
   var oneLink = document.querySelector('ul li:last-child #last');
