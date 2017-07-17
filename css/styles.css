@@ -22,6 +22,11 @@ ul>li>button.btn:hover {
   border-color: #ff0066;
 }
 
+ul>li>button.btn:focus {
+color: #ffffff;
+background-color: rgba(0, 0, 0, .45);
+}
+
 .btn-group-lg>.btn, .btn-lg {
   font-size: 30px;
 }
