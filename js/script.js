@@ -3,27 +3,27 @@ var firstName;
 var middleName;
 var lastName;
 
-// btn1 .getElementById
+// id "first": .getElementById, event listener click and target when btn clicked
 var btn = document.getElementById('first');
 btn.addEventListener('click', function(event){
   letters(event.target.id);
 });
 
-//middle name target when btn clicked
+// id "middle": event listener click and target when btn clicked
 document.getElementById('middle').addEventListener('click', function(event){
   letters(event.target.id);
 });
 
-//last name targeted when btn clicked
+// id "last": event listener click and target when btn clicked
 document.getElementById('last').addEventListener('click', function(event){
   letters(event.target.id);
 });
 
-// btn2 .getElementsByTagName
+// id "middle" .getElementsByTagName
 var links = document.getElementsByTagName('button');
   console.log(links);
 
-// btn3 .querySelector
+// id "last" .querySelector
   var oneLink = document.querySelector('ul li:last-child #last');
     console.log(oneLink);
 
